@@ -104,7 +104,7 @@ fun PhotosGridScreen(
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0.dp),
 ) {
-    LazyVerticalGrid(
+   /* LazyVerticalGrid(
         columns = GridCells.Adaptive(150.dp),
         modifier = modifier.padding(horizontal = 4.dp),
         contentPadding = contentPadding,
@@ -119,6 +119,8 @@ fun PhotosGridScreen(
             )
         }
     }
+
+    */
 }
 
 @Composable
